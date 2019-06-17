@@ -1,0 +1,33 @@
+logo:
+  text: Nova Web UI Design
+  type: link
+  path: https://ux.vnnox.com/components/#/button
+
+main:
+- text: Introduction 介绍
+  type: label
+  children:
+  - text: Nova Web UI
+    type: link
+    path: 
+  - text: Change Log 更新日志
+    type: link
+    path: 
+- text: Principles 设计原则
+  type: link
+  path: 
+- text: Styles 样式
+  type: label
+  children:
+  - text: Colors 色彩
+    type: link
+    path: 
+  - text: Typography 文字
+    type: link
+    path: 
+  - text: Outlines & Shadows 轮廓和阴影
+    type: link
+    path: 
+  - text: Other 其他
+    type: link
+    path: 
