@@ -1,0 +1,79 @@
+$doc-color-primary: #43a3fb; // set primary color to "red"
+$doc-navbar-logo-text-color: #333;
+$doc-sidebar-font-size-small: 14px !default;
+$doc-sidebar-font-size-normal: 14px !default;
+$doc-navbar-height: 55px !default;
+
+@import "hexo-theme-doc/_doc.scss";
+@import "./font_lp6vpwmj2nd/iconfont.scss";
+
+::selection {
+    background-color: #43a3fb;
+    color: #fff;
+}
+
+body {
+    background: #fff;
+}
+
+.doc-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-left: 1px solid #dddddd;
+}
+
+.doc-navbar__logo__text{
+    font-size: 14px;
+    font-family: "Ubuntu", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.doc-formatting img  {
+    max-width: none;
+    width: 1200px;
+}
+
+.dc-card {
+    box-shadow: none;
+    padding-top: 0px;
+}
+
+.doc-sidebar-list__item {
+    color: #646464;
+//    font-weight: 500;
+}
+
+// @mixin iconfont-self {
+//     font-family: "iconfont" !important;
+//         font-size: 16px;
+//         font-style: normal;
+//         -webkit-font-smoothing: antialiased;
+//         -moz-osx-font-smoothing: grayscale;
+// }
+
+
+ .doc-sidebar-list__item__children-toggle--show::before {
+    content: '∨';
+    //   content: '\e659';
+        // @include iconfont-self;
+  }
+
+  .doc-sidebar-list__item__children-toggle--hide:before {
+    content: '∧';
+    //   content: '\e658';
+    //   @include iconfont-self;
+  }
+
+  .dc-icon--close:before {
+    content: '🎉';
+    font-size:14px;
+ //   content: '\e7f3';
+
+//       @include iconfont-self;
+}
+
+  .doc-sidebar-list__item__children-toggle {
+    //   padding-left: 5px;
+  }
+  .doc-sidebar-list__item--label {
+//      border-top: 0px;
+  }
